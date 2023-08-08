@@ -3,9 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        </style>
 </head>
 <body>
-    
+    <div class="grid">
+        <div class="sidebar">
+            <div class="logo-text">
+                <img src="images/electron-framework-custom.png" alt="">
+                <h1>Dashboard</h1>
+            </div>
+            <div class="list_items">
+                <div class="icon_text">
+                    <img src="images/home-outline-custom.png" alt="">
+                    <p>Home</p>
+                </div>
+
+                <div class="icon_text">
+                    <img src="images/id-card-custom.png" alt="">
+                    <p>Profile</p>
+                </div>
+
+                <div class="icon_text">
+                    <img src="images/message-reply-outline-custom.png" alt="">
+                    <p>Message</p>
+                </div>
+
+                <div class="icon_text">
+                    <img src="images/clock-time-three-outline-custom.png" alt="">
+                    <p>History</p>
+                </div>
+
+                <div class="icon_text">
+                    <img src="images/note-multiple-outline-custom.png" alt="">
+                    <p>Tasks</p>
+                </div>
+
+                <div class="icon_text">
+                    <img src="images/account-group-outline-custom.png" alt="">
+                    <p>Communities</p>
+                </div>
+            </div>
+
+            <div class="list_items_bottom">
+
+                <div class="icon_text">
+                    <img src="images/cog-outline-custom.png" alt="">
+                    <p>Setting</p>
+                </div>
+
+                <div class="icon_text">
+                    <img src="images/head-question-outline-custom.png" alt="">
+                    <p>Support</p>
+                </div>
+
+                <div class="icon_text">
+                    <img src="images/shield-check-outline-custom.png" alt="">
+                    <p>Privacy</p>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="header">
+                <div class="navbar">
+                    <img src="images/magnify-custom.png" alt="">
+                    <input type="text" class="form_input">
+                    <img src="images/bell-ring-outline-custom.png" alt="">
+                    <img src="images/icons8-avatar-100.png" alt="" class="avatarNavbar" width="50px">
+                    <h5>Mr. Boots</h5>
+
+                </div>
+                <div class="welcome">
+                    <div class="left">
+                        <img src="images/icons8-avatar-100.png" alt="Profile Picture" width="75px">
+                        <div class="welcome_text">
+                            <p>Hi, there!</p>
+                            <h3>Mr. Boots (@Bootstery)</h3>
+                        </div>
+                    </div>
+
+                    <div class="right">
+                        <button class="btn">New</button>
+                        <button class="btn">Upload</button>
+                        <button class="btn">Share</button>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="content"></div>
+        </div>
+    </div>
+
 </body>
 </html>
