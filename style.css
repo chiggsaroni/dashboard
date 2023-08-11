@@ -59,7 +59,7 @@
     background-color: white;
     height: 100vh;
     display: grid;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 17% 83%;
 }
 
 .header {
@@ -68,18 +68,43 @@
     flex-direction: column;
 }
 
-.navbar, .left {
+.navbar {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 5px 20px;
 }
 
-.welcome {
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.navRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.navbar {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 5px 20px;
+    justify-content: space-between;
+}
+
+
+
+.welcome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 0px;
     justify-content: space-between;
 
 }
@@ -100,10 +125,10 @@
 .right {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    width: 30%;
-    margin-right: 30px;
+    width: 25%;
+
 }
 
 .btn {
@@ -118,4 +143,101 @@
 
 .content {
     background-color: #d4d4d4;
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
+
+.cards {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.card {
+    background-color: white;
+    border-left: 10px solid #facc15;
+    border-radius: 10px;
+    height: 200px;
+    width: 80%;
+    margin: 30px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 0 0 20px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 95%;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #737373;
+    margin: 10px;
+}
+
+h4 {
+    margin: 20px 0 0 25px;
+}
+
+.annoucements_trend {
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+}
+
+.ann_card, .trend_card {
+    height: 75%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.annouce_text {
+    padding: 10px 10px;
+}
+
+.annouce_text h6, .trend-text h5{
+    font-size: 16px;
+}
+
+.annouce_text p, .trend-text p{
+    font-size: 12px;
+    color: #737373;
+}
+
+.divider {
+    border: 0.5px solid #737373;
+    width: 95%;
+    margin-left: 0.5rem;
+    opacity: 50%;
+}
+
+
+
+.trend_image_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 13px 0px;
+
+}
+
+.trend-text {
+    margin-left: 20px;
+}
+
+.trending h4, .announcements h4 {
+    margin: 20px 0 30px 0;
+}
+
